@@ -1,7 +1,11 @@
 package Edureka;
 import java.util.Scanner;
 public class Calculator {
-public static void main(String[] args) {
+public static void main(String[] args) 
+{
+
+//Scanner class is used to take input from user.
+
 Scanner reader = new Scanner(System.in);
 System.out.print("Enter two numbers: ");
 // nextDouble() reads the next double from the keyboard
