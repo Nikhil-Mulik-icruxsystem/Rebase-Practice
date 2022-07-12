@@ -6,6 +6,7 @@ static void checkPalindrome(String input) {
 boolean res = true;
 int length = input.length();
 //dividing the length of the string by 2 and comparing it.
+//panindrom can be calculated using while loop.
 for(int i=0; i<= length/2; i++) {
 if(input.charAt(i) != input.charAt(length-i-1)) {
 res = false;
